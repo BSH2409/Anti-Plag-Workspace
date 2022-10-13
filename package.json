@@ -1,0 +1,39 @@
+{
+  "name": "code_api",
+  "version": "1.0.0",
+  "description": "Developed using Node, Express, Mongo, MSSQL server database in backend and HTML, CSS, Javascript, jQuery, Bootstrap, Ajax in frontend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.2.11",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.20",
+    "qrcode": "^1.5.0",
+    "randomstring": "^1.2.2",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k5301/aspiring-homes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/k5301/aspiring-homes/issues"
+  },
+  "homepage": "https://github.com/k5301/aspiring-homes#readme"
+}

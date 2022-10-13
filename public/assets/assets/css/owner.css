@@ -1,0 +1,77 @@
+.heading{
+        font-size: 25px;
+        font-weight: 600;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../../images/owner.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-authentication1{
+    width: 35rem;
+}
+.card{
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.4);
+}
+#btn_otp{
+    height: 100%;
+    border-radius: 0;
+}
+#btn_verify_otp{
+    height: 100%;
+    border-radius: 0;
+}
+.form-control-position-right{
+    position: absolute;
+    top: -8px;
+    right: 0;
+    left:auto;
+    z-index: 2;
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+.form-control-position-right i.hide-btn::before{
+    content: "\f070";
+}
+label.error.have-alert{
+    color:blue;
+}
+.errorhighlight{
+    border: 1px solid red !important;
+}
+.fieldset{
+    border: 1px solid #3ada34 !important;
+}
+:disabled{
+    cursor:not-allowed;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 600px) {
+	body{
+        background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8));
+        /* background-position: center; */
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card {
+        box-shadow: 0 2px 6px 0 rgb(255,255,255);
+    }
+    .height-100v {
+		height: auto;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+    .my-4{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+}
